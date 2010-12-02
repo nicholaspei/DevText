@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using DevText.Framework.Data;
 
-namespace DevText.Framework.Data.Repository
+namespace DevText.Framework.Data
 {
     public interface IRepository<TEntity> where TEntity:IEntity
     {

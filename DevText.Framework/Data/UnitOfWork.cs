@@ -4,10 +4,10 @@ namespace DevText.Framework.Data
 {
     public class UnitOfWork:IUnitOfWork
     {
-        private readonly ISessionFactory _sessionFactory;
+        private readonly NHibernate.ISessionFactory _sessionFactory;
         private readonly ITransaction _transaction;
 
-        public UnitOfWork(ISessionFactory sessionFactory)
+        public UnitOfWork(NHibernate.ISessionFactory sessionFactory)
         {
             _sessionFactory = sessionFactory;
             Session = _sessionFactory.OpenSession();

@@ -1,5 +1,6 @@
 ﻿using System;
 using Castle.Core.Logging;
+using Castle.Core.Logging.Factories;
 using log4net;
 using log4net.Config;
 

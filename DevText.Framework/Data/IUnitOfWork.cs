@@ -1,8 +1,9 @@
 ﻿using System;
 using NHibernate;
+
 namespace DevText.Framework.Data
 {
-    interface IUnitOfWork:IDisposable
+    public interface IUnitOfWork:IDisposable
     {
         ISession Session { get; }
 

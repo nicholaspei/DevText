@@ -40,10 +40,11 @@
     <Reference Include="AutofacContrib.DynamicProxy2">
       <HintPath>..\..\garbage\thangchung-NHibernate3Sample-ba2f954\Libs\Autofac\Library\AutofacContrib.DynamicProxy2.dll</HintPath>
     </Reference>
-    <Reference Include="Castle.Core">
-      <HintPath>..\packages\Castle.Core.2.5.1\lib\NET35\Castle.Core.dll</HintPath>
+    <Reference Include="Castle.Core, Version=1.2.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\garbage\thangchung-NHibernate3Sample-ba2f954\NHibernate3Sample.Autofac\bin\Debug\Castle.Core.dll</HintPath>
     </Reference>
-    <Reference Include="FluentNHibernate">
+    <Reference Include="FluentNHibernate, Version=1.1.0.694, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
       <HintPath>..\..\garbage\thangchung-NHibernate3Sample-ba2f954\Libs\FluentNHibernate\FluentNHibernate.dll</HintPath>
     </Reference>
     <Reference Include="FluentValidation">
@@ -55,13 +56,18 @@
     <Reference Include="log4net">
       <HintPath>..\packages\log4net.1.2.10\lib\2.0\log4net.dll</HintPath>
     </Reference>
-    <Reference Include="NHibernate">
-      <HintPath>..\..\garbage\thangchung-NHibernate3Sample-ba2f954\Libs\Autofac\Library\NHibernate.dll</HintPath>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\..\garbage\thangchung-NHibernate3Sample-ba2f954\NHibernate3Sample.Autofac\bin\Debug\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.0.0.1002, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\garbage\thangchung-NHibernate3Sample-ba2f954\Libs\FluentNHibernate\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="NHibernate.ByteCode.Castle">
       <HintPath>..\..\garbage\thangchung-NHibernate3Sample-ba2f954\Libs\FluentNHibernate\NHibernate.ByteCode.Castle.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Web" />
@@ -79,11 +85,20 @@
     <Compile Include="Caching\ICacheProvider.cs" />
     <Compile Include="Caching\MemoryCacheAdapter.cs" />
     <Compile Include="Caching\WebCacheAdapter.cs" />
+    <Compile Include="Data\Convertions\PrimaryKeyNameConvertion.cs" />
+    <Compile Include="Data\Convertions\ReferenceConvertion.cs" />
+    <Compile Include="Data\Convertions\TableNameConvertion.cs" />
     <Compile Include="Data\EntityBase.cs" />
+    <Compile Include="Data\ExceptionInterceptor.cs" />
     <Compile Include="Data\IEntity.cs" />
+    <Compile Include="Data\IoC.cs" />
+    <Compile Include="Data\ISessionFactory.cs" />
     <Compile Include="Data\IUnitOfWork.cs" />
     <Compile Include="Data\IUnitOfWorkFactory.cs" />
+    <Compile Include="Data\Convertions\ForeignKeyNameConvention.cs" />
+    <Compile Include="Data\NHibernateComponentModule.cs" />
     <Compile Include="Data\Repository\IRepository.cs" />
+    <Compile Include="Data\SessionFactory.cs" />
     <Compile Include="Data\UnitOfWork.cs" />
     <Compile Include="Data\UnitOfWorkFactory.cs" />
     <Compile Include="Extensions\Security.cs" />
