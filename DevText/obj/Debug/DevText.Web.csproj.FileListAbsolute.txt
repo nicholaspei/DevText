@@ -1,0 +1,6 @@
+F:\DevText\DevText\bin\DevText.dll
+F:\DevText\DevText\bin\DevText.pdb
+F:\DevText\DevText\bin\Castle.Core.dll
+F:\DevText\DevText\obj\Debug\ResolveAssemblyReference.cache
+F:\DevText\DevText\obj\Debug\DevText.dll
+F:\DevText\DevText\obj\Debug\DevText.pdb

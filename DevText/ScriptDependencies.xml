@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dependencies ReleaseSuffix="min" DebugSuffix="debug">
+
+  <Dependency Name="jQuery-validate-unobtrusive" Type="js">
+    <ScriptFile>~/Scripts/jquery.validate.unobtrusive.js</ScriptFile>
+    <RequiredDependencies>
+      <Name>jquery</Name>
+      <Name>jQuery-validate</Name>
+    </RequiredDependencies>
+  </Dependency>
+
+  <Dependency Name="jQuery-validate" Type="js">
+    <ScriptFile>~/Scripts/jquery.validate.js</ScriptFile>
+    <RequiredDependencies>
+      <Name>jquery</Name>
+    </RequiredDependencies>
+  </Dependency>
+
+  <Dependency Name="jQuery" Type="js">
+    <ScriptFile>~/Scripts/jquery-1.4.1.js</ScriptFile>
+  </Dependency>
+
+  <Dependency Name="Microsoft-Ajax" Type="js">
+    <ScriptFile>~/Scripts/MicrosoftAjax.js</ScriptFile>
+  </Dependency>
+
+  <Dependency Name="Microsoft-Mvc-Ajax" Type="js">
+    <ScriptFile>~/Scripts/MicrosoftMvcAjax.js</ScriptFile>
+    <RequiredDependencies>
+      <Name>Microsoft-Ajax</Name>
+    </RequiredDependencies>
+  </Dependency>
+
+  <Dependency Name="Microsoft-Mvc-Validation" Type="js">
+    <ScriptFile>~/Scripts/MicrosoftMvcValidation.js</ScriptFile>
+    <RequiredDependencies>
+      <Name>Microsoft-Ajax</Name>
+      <Name>Microsoft-Mvc-Ajax</Name>
+      <Name>SiteWideStyle</Name>
+    </RequiredDependencies>
+  </Dependency>
+
+  <Dependency Name="SiteWideStyle" Type="css">
+    <ScriptFile>~/Content/Site.css</ScriptFile>
+  </Dependency>
+
+
+</Dependencies>
