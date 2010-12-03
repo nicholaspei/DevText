@@ -5,7 +5,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevText.Web", "DevText\DevT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevText.Framework", "DevText.Framework\DevText.Framework.csproj", "{53E97091-5B2E-4A60-A179-0697F7DC5654}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevText.FrameworkTests", "DevText.FrameworkTests\DevText.FrameworkTests.csproj", "{51499BAB-603E-4273-8345-9AA072CAC6C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6424068F-925B-4D61-AE8E-A2D69A7AE14D}"
+	ProjectSection(SolutionItems) = preProject
+		DevText.vsmdi = DevText.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DevText.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -19,6 +31,10 @@ Global
 		{53E97091-5B2E-4A60-A179-0697F7DC5654}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53E97091-5B2E-4A60-A179-0697F7DC5654}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53E97091-5B2E-4A60-A179-0697F7DC5654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51499BAB-603E-4273-8345-9AA072CAC6C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51499BAB-603E-4273-8345-9AA072CAC6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51499BAB-603E-4273-8345-9AA072CAC6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51499BAB-603E-4273-8345-9AA072CAC6C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
