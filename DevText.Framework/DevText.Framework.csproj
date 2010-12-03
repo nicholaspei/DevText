@@ -85,6 +85,7 @@
     <Compile Include="Caching\ICacheProvider.cs" />
     <Compile Include="Caching\MemoryCacheAdapter.cs" />
     <Compile Include="Caching\WebCacheAdapter.cs" />
+    <Compile Include="Common\Cookie.cs" />
     <Compile Include="Data\Convertions\PrimaryKeyNameConvertion.cs" />
     <Compile Include="Data\Convertions\ReferenceConvertion.cs" />
     <Compile Include="Data\Convertions\TableNameConvertion.cs" />

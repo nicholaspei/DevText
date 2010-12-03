@@ -4,3 +4,9 @@ F:\DevText\DevText\bin\Castle.Core.dll
 F:\DevText\DevText\obj\Debug\ResolveAssemblyReference.cache
 F:\DevText\DevText\obj\Debug\DevText.dll
 F:\DevText\DevText\obj\Debug\DevText.pdb
+C:\Users\npei01\DevText\DevText\bin\DevText.dll
+C:\Users\npei01\DevText\DevText\bin\DevText.pdb
+C:\Users\npei01\DevText\DevText\bin\Castle.Core.dll
+C:\Users\npei01\DevText\DevText\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\npei01\DevText\DevText\obj\Debug\DevText.dll
+C:\Users\npei01\DevText\DevText\obj\Debug\DevText.pdb
