@@ -102,6 +102,18 @@
     <Compile Include="Data\SessionFactory.cs" />
     <Compile Include="Data\UnitOfWork.cs" />
     <Compile Include="Data\UnitOfWorkFactory.cs" />
+    <Compile Include="Disposable.cs" />
+    <Compile Include="Events\DelegateReference.cs" />
+    <Compile Include="Events\EventAggregator.cs" />
+    <Compile Include="Events\EventArgs.cs" />
+    <Compile Include="Events\EventBase.cs" />
+    <Compile Include="Events\EventBase`1.cs" />
+    <Compile Include="Events\EventSubscription.cs" />
+    <Compile Include="Events\IDelegateReference.cs" />
+    <Compile Include="Events\IEventAggregator.cs" />
+    <Compile Include="Events\IEventSubscription.cs" />
+    <Compile Include="Events\SubscriptionToken.cs" />
+    <Compile Include="Extensions\ReaderWriterLockSlimExtensions.cs" />
     <Compile Include="Extensions\Security.cs" />
     <Compile Include="Extensions\StringExtension.cs" />
     <Compile Include="File\FileManager.cs" />
@@ -126,6 +138,13 @@
     <Compile Include="Script\ScriptEnumerations.cs" />
     <Compile Include="Script\ScriptManager.cs" />
     <Compile Include="Script\ScriptName.cs" />
+    <Compile Include="Services\RuleViolation.cs" />
+    <Compile Include="Services\ServiceResultBase.cs" />
+    <Compile Include="Setting\CurrentSiteWorkContext.cs" />
+    <Compile Include="Setting\ISite.cs" />
+    <Compile Include="Setting\ISiteService.cs" />
+    <Compile Include="Setting\ResourceDebugMode.cs" />
+    <Compile Include="Setting\SettingsModule.cs" />
     <Compile Include="Theme\DevTextViewEngine.cs" />
     <Compile Include="Theme\IThemeManager.cs" />
     <Compile Include="Theme\ThemeManager.cs" />
@@ -142,10 +161,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Email\" />
-    <Folder Include="Events\" />
     <Folder Include="obj\Debug\TempPE\" />
-    <Folder Include="Services\" />
-    <Folder Include="Setting\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
