@@ -44,6 +44,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\garbage\thangchung-NHibernate3Sample-ba2f954\NHibernate3Sample.Autofac\bin\Debug\Castle.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Elmah">
+      <HintPath>..\packages\elmah.1.1\lib\Elmah.dll</HintPath>
+    </Reference>
     <Reference Include="FluentNHibernate, Version=1.1.0.694, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL">
       <HintPath>..\..\garbage\thangchung-NHibernate3Sample-ba2f954\Libs\FluentNHibernate\FluentNHibernate.dll</HintPath>
     </Reference>
@@ -71,6 +74,7 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Caching" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -103,6 +107,7 @@
     <Compile Include="Data\UnitOfWork.cs" />
     <Compile Include="Data\UnitOfWorkFactory.cs" />
     <Compile Include="Disposable.cs" />
+    <Compile Include="Error\ElmahHandleErrorAttribute.cs" />
     <Compile Include="Events\DelegateReference.cs" />
     <Compile Include="Events\EventAggregator.cs" />
     <Compile Include="Events\EventArgs.cs" />
@@ -138,6 +143,8 @@
     <Compile Include="Script\ScriptEnumerations.cs" />
     <Compile Include="Script\ScriptManager.cs" />
     <Compile Include="Script\ScriptName.cs" />
+    <Compile Include="Services\BackgroundServiceBase.cs" />
+    <Compile Include="Services\IBackgroundService.cs" />
     <Compile Include="Services\RuleViolation.cs" />
     <Compile Include="Services\ServiceResultBase.cs" />
     <Compile Include="Setting\CurrentSiteWorkContext.cs" />
@@ -158,6 +165,7 @@
   <ItemGroup>
     <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="packages.config" />
+    <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Email\" />

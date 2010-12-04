@@ -1,0 +1,5 @@
+C:\Users\npei01\DevText\DevText.FrameworkTests\bin\Debug\DevText.FrameworkTests.dll
+C:\Users\npei01\DevText\DevText.FrameworkTests\bin\Debug\DevText.FrameworkTests.pdb
+C:\Users\npei01\DevText\DevText.FrameworkTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\npei01\DevText\DevText.FrameworkTests\obj\Debug\DevText.FrameworkTests.dll
+C:\Users\npei01\DevText\DevText.FrameworkTests\obj\Debug\DevText.FrameworkTests.pdb

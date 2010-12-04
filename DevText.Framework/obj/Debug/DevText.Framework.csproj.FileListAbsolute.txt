@@ -49,3 +49,4 @@ C:\Users\npei01\DevText\DevText.Framework\bin\Debug\log4net.xml
 C:\Users\npei01\DevText\DevText.Framework\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\npei01\DevText\DevText.Framework\obj\Debug\DevText.Framework.dll
 C:\Users\npei01\DevText\DevText.Framework\obj\Debug\DevText.Framework.pdb
+C:\Users\npei01\DevText\DevText.Framework\bin\Debug\Elmah.dll
