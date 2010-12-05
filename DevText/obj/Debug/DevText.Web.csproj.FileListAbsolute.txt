@@ -10,3 +10,4 @@ C:\Users\npei01\DevText\DevText\bin\Castle.Core.dll
 C:\Users\npei01\DevText\DevText\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\npei01\DevText\DevText\obj\Debug\DevText.dll
 C:\Users\npei01\DevText\DevText\obj\Debug\DevText.pdb
+C:\Users\npei01\DevText\DevText\bin\Elmah.dll

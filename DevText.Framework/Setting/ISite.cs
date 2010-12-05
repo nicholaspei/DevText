@@ -8,7 +8,8 @@ namespace DevText.Framework.Setting
         string SiteName { get; }
         string SiteSalt { get; }
         string SuperUser { get; set; }
-        string HomePage { get; set; }
+        string SiteUrl { get; set; }
+        string Noreplayemail { get; set; }
         string SiteCulture { get; set; }
         ResourceDebugMode ResourceDebugMode { get; set; }
     }

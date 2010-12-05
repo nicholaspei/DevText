@@ -107,6 +107,8 @@
     <Compile Include="Data\UnitOfWork.cs" />
     <Compile Include="Data\UnitOfWorkFactory.cs" />
     <Compile Include="Disposable.cs" />
+    <Compile Include="Email\EmailManager.cs" />
+    <Compile Include="Email\EmailTemplate.cs" />
     <Compile Include="Error\ElmahHandleErrorAttribute.cs" />
     <Compile Include="Events\DelegateReference.cs" />
     <Compile Include="Events\EventAggregator.cs" />
@@ -143,6 +145,7 @@
     <Compile Include="Script\ScriptEnumerations.cs" />
     <Compile Include="Script\ScriptManager.cs" />
     <Compile Include="Script\ScriptName.cs" />
+    <Compile Include="Security\IUser.cs" />
     <Compile Include="Services\BackgroundServiceBase.cs" />
     <Compile Include="Services\IBackgroundService.cs" />
     <Compile Include="Services\RuleViolation.cs" />
@@ -168,7 +171,6 @@
     <None Include="web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Email\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
