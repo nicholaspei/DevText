@@ -7,5 +7,6 @@ namespace DevText.Framework.Widget
 {
     public interface IWidgetManager
     {
+         IEnumerable<IWidget> RegisteredWidgets { get; set; }
     }
 }

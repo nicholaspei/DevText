@@ -11,6 +11,7 @@ namespace DevText.Framework.Setting
         string SiteUrl { get; set; }
         string Noreplayemail { get; set; }
         string SiteCulture { get; set; }
+        string Theme { get; set; }
         ResourceDebugMode ResourceDebugMode { get; set; }
     }
 }

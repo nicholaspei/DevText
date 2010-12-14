@@ -44,7 +44,6 @@ C:\Users\npei01\DevText\DevText.Framework\bin\Debug\DevText.Framework.pdb
 C:\Users\npei01\DevText\DevText.Framework\bin\Debug\Autofac.dll
 C:\Users\npei01\DevText\DevText.Framework\bin\Debug\log4net.dll
 C:\Users\npei01\DevText\DevText.Framework\bin\Debug\Autofac.xml
-C:\Users\npei01\DevText\DevText.Framework\bin\Debug\Castle.Core.xml
 C:\Users\npei01\DevText\DevText.Framework\bin\Debug\log4net.xml
 C:\Users\npei01\DevText\DevText.Framework\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\npei01\DevText\DevText.Framework\obj\Debug\DevText.Framework.dll
