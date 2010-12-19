@@ -3,12 +3,19 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using DevText.Framework.Mvc;
 
 namespace DevText.Controllers
 {
     [HandleError]
-    public class HomeController : Controller
+    public class HomeController :NicholasController
     {
+        public HomeController()
+        {
+            base.Widget = "Home";
+            
+        }
+
         public ActionResult Index()
         {
             ViewData["Message"] = "Welcome to ASP.NET MVC!";

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using DevText.Framework.Mvc;
 
 namespace DevText
 {
@@ -26,7 +27,11 @@ namespace DevText
 
         protected void Application_Start()
         {
-            AreaRegistration.RegisterAllAreas();
+             AreaRegistration.RegisterAllAreas();
+            ViewEngines.Engines.Clear();
+            ViewEngines.Engines.Add(new DevTextViewEngine());
+
+       //     ControllerBuilder.Current.SetControllerFactory(typeof(DevTextControllerFactory));		 	    
 
             RegisterRoutes(RouteTable.Routes);
         }

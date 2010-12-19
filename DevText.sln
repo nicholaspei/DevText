@@ -14,6 +14,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Widgets", "Widgets", "{C15B59DD-AFF2-4656-9D22-83CE22681FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post", "DevText\Widgets\Post\Post.csproj", "{D35EE448-F303-42EC-BFF8-FF226E12ED12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{7E3B618A-BDD8-4701-BE45-32CB3F9E100F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder2", "NewFolder2", "{EBC3CA0C-E15B-44F0-A689-D0BAD6A8FC29}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = DevText.vsmdi
@@ -35,8 +43,17 @@ Global
 		{51499BAB-603E-4273-8345-9AA072CAC6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51499BAB-603E-4273-8345-9AA072CAC6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51499BAB-603E-4273-8345-9AA072CAC6C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35EE448-F303-42EC-BFF8-FF226E12ED12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35EE448-F303-42EC-BFF8-FF226E12ED12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35EE448-F303-42EC-BFF8-FF226E12ED12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35EE448-F303-42EC-BFF8-FF226E12ED12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E3B618A-BDD8-4701-BE45-32CB3F9E100F} = {6424068F-925B-4D61-AE8E-A2D69A7AE14D}
+		{EBC3CA0C-E15B-44F0-A689-D0BAD6A8FC29} = {6424068F-925B-4D61-AE8E-A2D69A7AE14D}
+		{D35EE448-F303-42EC-BFF8-FF226E12ED12} = {C15B59DD-AFF2-4656-9D22-83CE22681FB5}
 	EndGlobalSection
 EndGlobal

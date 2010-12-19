@@ -117,9 +117,20 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Themes\default\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DevText.Framework\DevText.Framework.csproj">
+      <Project>{53E97091-5B2E-4A60-A179-0697F7DC5654}</Project>
+      <Name>DevText.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="Widgets\Post\Post.csproj">
+      <Project>{D35EE448-F303-42EC-BFF8-FF226E12ED12}</Project>
+      <Name>Post</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

@@ -22,6 +22,7 @@ namespace DevText.Framework.Mvc
         public NicholasController(IRepository<IUser> repository)
         {
             Repository = repository;
+            
         }
         public IUser CurrentUser
         { 
@@ -63,7 +64,7 @@ namespace DevText.Framework.Mvc
 
         public ISite Settings;
 
-        public string Widget;
+        public  string Widget;
       
 
 

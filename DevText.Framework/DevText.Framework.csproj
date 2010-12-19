@@ -103,6 +103,7 @@
     <Compile Include="Data\IUnitOfWorkFactory.cs" />
     <Compile Include="Data\Convertions\ForeignKeyNameConvention.cs" />
     <Compile Include="Data\NHibernateComponentModule.cs" />
+    <Compile Include="Data\Repository\GeneracRepository.cs" />
     <Compile Include="Data\Repository\IRepository.cs" />
     <Compile Include="Data\SessionFactory.cs" />
     <Compile Include="Data\UnitOfWork.cs" />
@@ -134,6 +135,7 @@
     <Compile Include="Logging\ThreadContextProperties.cs" />
     <Compile Include="Logging\ThreadContextStack.cs" />
     <Compile Include="Logging\ThreadContextStacks.cs" />
+    <Compile Include="Mvc\DevTextControllerFactory.cs" />
     <Compile Include="Mvc\DevTextViewEngine.cs" />
     <Compile Include="Mvc\NicholasController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

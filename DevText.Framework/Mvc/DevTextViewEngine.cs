@@ -26,10 +26,10 @@ namespace DevText.Framework.Mvc
                 "~/Themes/{2}/Views/Shared/{0}.aspx",
                 "~/Themes/{2}/Views/{1}/{0}.ascx",                
                 "~/Themes/{2}/Views/Shared/{0}.ascx",
-                "~/Widgets/{2}/Views/{1}/{0}.aspx",                 
-                "~/Widgets/{2}/Views/Shared/{0}.aspx",
-                "~/Widgets/{2}/Views/{1}/{0}.ascx",                
-                "~/Widgets/{2}/Views/Shared/{0}.ascx",
+                "~/Widgets/{1}/Views/{1}/{0}.aspx",                 
+                "~/Widgets/{1}/Views/Shared/{0}.aspx",
+                "~/Widgets/{1}/Views/{1}/{0}.ascx",                
+                "~/Widgets/{1}/Views/Shared/{0}.ascx",
                 "~/Views/{1}/{0}.aspx",
                 "~/Views/Shared/{0}.aspx",     
                 "~/Views/{1}/{0}.ascx",
@@ -50,7 +50,8 @@ namespace DevText.Framework.Mvc
             }
 
             NicholasController controller = (NicholasController)controllerContext.Controller;
-            return String.IsNullOrWhiteSpace(context.Request["theme"]) ? controller.Settings.Theme : context.Request["theme"];
+        //    return String.IsNullOrWhiteSpace(context.Request["theme"]) ? controller.Settings.Theme : context.Request["theme"];
+            return "default";
         }
 
        private static string GetWidget(ControllerContext controllerContext)

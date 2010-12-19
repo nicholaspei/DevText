@@ -11,3 +11,17 @@ C:\Users\npei01\DevText\DevText\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\npei01\DevText\DevText\obj\Debug\DevText.dll
 C:\Users\npei01\DevText\DevText\obj\Debug\DevText.pdb
 C:\Users\npei01\DevText\DevText\bin\Elmah.dll
+C:\Users\npei01\DevText\DevText\bin\DevText.Framework.dll
+C:\Users\npei01\DevText\DevText\bin\Post.dll
+C:\Users\npei01\DevText\DevText\bin\FluentNHibernate.dll
+C:\Users\npei01\DevText\DevText\bin\Autofac.dll
+C:\Users\npei01\DevText\DevText\bin\FluentValidation.dll
+C:\Users\npei01\DevText\DevText\bin\log4net.dll
+C:\Users\npei01\DevText\DevText\bin\NHibernate.dll
+C:\Users\npei01\DevText\DevText\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\npei01\DevText\DevText\bin\NHibernate.ByteCode.Castle.dll
+C:\Users\npei01\DevText\DevText\bin\Iesi.Collections.dll
+C:\Users\npei01\DevText\DevText\bin\DevText.Framework.pdb
+C:\Users\npei01\DevText\DevText\bin\Post.pdb
+C:\Users\npei01\DevText\DevText\bin\Autofac.xml
+C:\Users\npei01\DevText\DevText\bin\log4net.xml
