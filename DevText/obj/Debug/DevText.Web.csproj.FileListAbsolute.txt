@@ -25,3 +25,6 @@ C:\Users\npei01\DevText\DevText\bin\DevText.Framework.pdb
 C:\Users\npei01\DevText\DevText\bin\Post.pdb
 C:\Users\npei01\DevText\DevText\bin\Autofac.xml
 C:\Users\npei01\DevText\DevText\bin\log4net.xml
+C:\Users\npei01\DevText\DevText\bin\Castle.DynamicProxy2.dll
+C:\Users\npei01\DevText\DevText\bin\Castle.DynamicProxy2.xml
+C:\Users\npei01\DevText\DevText\bin\Castle.Core.xml

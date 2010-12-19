@@ -9,7 +9,6 @@ C:\Users\npei01\DevText\DevText\Widgets\Post\bin\log4net.dll
 C:\Users\npei01\DevText\DevText\Widgets\Post\bin\Elmah.dll
 C:\Users\npei01\DevText\DevText\Widgets\Post\bin\Microsoft.Practices.ServiceLocation.dll
 C:\Users\npei01\DevText\DevText\Widgets\Post\bin\NHibernate.ByteCode.Castle.dll
-C:\Users\npei01\DevText\DevText\Widgets\Post\bin\Iesi.Collections.dll
 C:\Users\npei01\DevText\DevText\Widgets\Post\bin\DevText.Framework.pdb
 C:\Users\npei01\DevText\DevText\Widgets\Post\bin\MvcExtensions.xml
 C:\Users\npei01\DevText\DevText\Widgets\Post\bin\Autofac.xml
@@ -17,3 +16,6 @@ C:\Users\npei01\DevText\DevText\Widgets\Post\bin\log4net.xml
 C:\Users\npei01\DevText\DevText\Widgets\Post\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\npei01\DevText\DevText\Widgets\Post\obj\Debug\Post.dll
 C:\Users\npei01\DevText\DevText\Widgets\Post\obj\Debug\Post.pdb
+C:\Users\npei01\DevText\DevText\Widgets\Post\bin\Iesi.Collections.dll
+C:\Users\npei01\DevText\DevText\Widgets\Post\bin\Castle.DynamicProxy2.dll
+C:\Users\npei01\DevText\DevText\Widgets\Post\bin\Castle.DynamicProxy2.xml

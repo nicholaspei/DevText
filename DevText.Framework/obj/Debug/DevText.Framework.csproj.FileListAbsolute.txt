@@ -49,3 +49,5 @@ C:\Users\npei01\DevText\DevText.Framework\obj\Debug\ResolveAssemblyReference.cac
 C:\Users\npei01\DevText\DevText.Framework\obj\Debug\DevText.Framework.dll
 C:\Users\npei01\DevText\DevText.Framework\obj\Debug\DevText.Framework.pdb
 C:\Users\npei01\DevText\DevText.Framework\bin\Debug\Elmah.dll
+C:\Users\npei01\DevText\DevText.Framework\bin\Debug\Castle.DynamicProxy2.dll
+C:\Users\npei01\DevText\DevText.Framework\bin\Debug\Castle.DynamicProxy2.xml

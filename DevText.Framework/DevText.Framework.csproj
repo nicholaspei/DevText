@@ -44,6 +44,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\garbage\thangchung-NHibernate3Sample-ba2f954\NHibernate3Sample.Autofac\bin\Debug\Castle.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Castle.DynamicProxy2">
+      <HintPath>F:\garbage\thangchung-NHibernate3Sample-ba2f954\Libs\FluentNHibernate\Castle.DynamicProxy2.dll</HintPath>
+    </Reference>
     <Reference Include="Elmah">
       <HintPath>..\packages\elmah.1.1\lib\Elmah.dll</HintPath>
     </Reference>

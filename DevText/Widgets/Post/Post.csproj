@@ -34,6 +34,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FluentNHibernate, Version=1.1.0.694, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL" />
+    <Reference Include="FluentValidation, Version=2.0.0.0, Culture=neutral, PublicKeyToken=a82054b837897c66, processorArchitecture=MSIL">
+      <HintPath>..\..\..\DevText.Framework\bin\Debug\FluentValidation.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="MvcExtensions">
       <HintPath>F:\Shrinkr\shrinkr_7455910e9c1b\Source\References\mvcextensions\MvcExtensions.dll</HintPath>
@@ -77,14 +80,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\IpostRepository.cs" />
     <Compile Include="Repository\postRepository.cs" />
+    <Compile Include="Validation\postValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Site.css" />
+    <Content Include="Views\post\Create.aspx" />
     <Content Include="Views\post\Index.aspx" />
+    <Content Include="Views\post\Install.aspx" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Validation\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
