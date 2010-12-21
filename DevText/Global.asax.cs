@@ -1,39 +1,32 @@
 ﻿using System;
+using System.Net;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
-using DevText.Framework.Mvc;
+using MvcExtensions.Autofac;
+using Autofac.Integration.Web;
+
+using Elmah;
 
 namespace DevText
 {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801
 
-    public class MvcApplication : System.Web.HttpApplication
+    public class MvcApplication : AutofacMvcApplication
     {
-        public static void RegisterRoutes(RouteCollection routes)
+        public void ErrorLog_Filtering(object sender, ExceptionFilterEventArgs e)
         {
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            var exception = e.Exception.GetBaseException() as HttpException;
 
-            routes.MapRoute(
-                "Default", // Route name
-                "{controller}/{action}/{id}", // URL with parameters
-                new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
-            );
-
+            if ((exception != null) && (exception.GetHttpCode() == (int)HttpStatusCode.NotFound))
+            {
+                e.Dismiss();
+            }
         }
 
-        protected void Application_Start()
-        {
-             AreaRegistration.RegisterAllAreas();
-            ViewEngines.Engines.Clear();
-            ViewEngines.Engines.Add(new DevTextViewEngine());
-
-       //     ControllerBuilder.Current.SetControllerFactory(typeof(DevTextControllerFactory));		 	    
-
-            RegisterRoutes(RouteTable.Routes);
-        }
+       
     }
 }

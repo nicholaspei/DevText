@@ -10,12 +10,8 @@ namespace DevText.Controllers
     [HandleError]
     public class HomeController :NicholasController
     {
-        public HomeController()
-        {
-            base.Widget = "Home";
-            
-        }
-
+        
+        
         public ActionResult Index()
         {
             ViewData["Message"] = "Welcome to ASP.NET MVC!";

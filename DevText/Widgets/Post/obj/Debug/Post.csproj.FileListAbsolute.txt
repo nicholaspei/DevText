@@ -19,3 +19,5 @@ C:\Users\npei01\DevText\DevText\Widgets\Post\obj\Debug\Post.pdb
 C:\Users\npei01\DevText\DevText\Widgets\Post\bin\Iesi.Collections.dll
 C:\Users\npei01\DevText\DevText\Widgets\Post\bin\Castle.DynamicProxy2.dll
 C:\Users\npei01\DevText\DevText\Widgets\Post\bin\Castle.DynamicProxy2.xml
+C:\Users\npei01\DevText\DevText\bin\Post.dll
+C:\Users\npei01\DevText\DevText\bin\Post.pdb

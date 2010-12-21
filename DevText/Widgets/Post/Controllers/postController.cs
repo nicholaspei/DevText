@@ -18,6 +18,10 @@ namespace Post.Controllers
         //
         // GET: /post/
         
+        public postController(IpostRepository postService)
+        {
+            this.postService = postService;
+        }
        
         public ActionResult Index()
         {

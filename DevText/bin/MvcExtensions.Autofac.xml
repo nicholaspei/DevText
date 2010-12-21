@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MvcExtensions.Autofac</name>
+    </assembly>
+    <members>
+        <member name="T:MvcExtensions.Autofac.AutofacAdapter">
+            <summary>
+            Defines an adapter class which is backed by Autofac <seealso cref="P:MvcExtensions.Autofac.AutofacAdapter.Container">Container</seealso>.
+            </summary>
+        </member>
+        <member name="M:MvcExtensions.Autofac.AutofacAdapter.#ctor(Autofac.ILifetimeScope)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MvcExtensions.Autofac.AutofacAdapter"/> class.
+            </summary>
+            <param name="container">The container.</param>
+        </member>
+        <member name="M:MvcExtensions.Autofac.AutofacAdapter.RegisterType(System.String,System.Type,System.Type,MvcExtensions.LifetimeType)">
+            <summary>
+            Registers the service and its implementation with the lifetime behavior.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="serviceType">Type of the service.</param>
+            <param name="implementationType">Type of the implementation.</param>
+            <param name="lifetime">The lifetime of the service.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MvcExtensions.Autofac.AutofacAdapter.RegisterInstance(System.String,System.Type,System.Object)">
+            <summary>
+            Registers the instance as singleton.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="serviceType">Type of the service.</param>
+            <param name="instance">The instance.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MvcExtensions.Autofac.AutofacAdapter.Inject(System.Object)">
+            <summary>
+            Injects the matching dependences.
+            </summary>
+            <param name="instance">The instance.</param>
+        </member>
+        <member name="M:MvcExtensions.Autofac.AutofacAdapter.DoGetInstance(System.Type,System.String)">
+            <summary>
+            Gets the matching instance for the given type and key.
+            </summary>
+            <param name="serviceType">Type of the service.</param>
+            <param name="key">The key.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MvcExtensions.Autofac.AutofacAdapter.DoGetAllInstances(System.Type)">
+            <summary>
+            Gets all the instances for the given type.
+            </summary>
+            <param name="serviceType">Type of the service.</param>
+            <returns></returns>
+        </member>
+        <member name="M:MvcExtensions.Autofac.AutofacAdapter.DisposeCore">
+            <summary>
+            Releases unmanaged and - optionally - managed resources
+            </summary>
+        </member>
+        <member name="P:MvcExtensions.Autofac.AutofacAdapter.Container">
+            <summary>
+            Gets the container.
+            </summary>
+            <value>The container.</value>
+        </member>
+        <member name="T:MvcExtensions.Autofac.AutofacBootstrapper">
+            <summary>
+            Defines a <seealso cref="T:MvcExtensions.Bootstrapper">Bootstrapper</seealso> which is backed by <seealso cref="T:MvcExtensions.Autofac.AutofacAdapter"/>.
+            </summary>
+        </member>
+        <member name="M:MvcExtensions.Autofac.AutofacBootstrapper.#ctor(MvcExtensions.IBuildManager)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MvcExtensions.Autofac.AutofacBootstrapper"/> class.
+            </summary>
+            <param name="buildManager">The build manager.</param>
+        </member>
+        <member name="M:MvcExtensions.Autofac.AutofacBootstrapper.CreateAdapter">
+            <summary>
+            Creates the container adapter.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MvcExtensions.Autofac.AutofacBootstrapper.LoadModules">
+            <summary>
+            Loads the container specific modules.
+            </summary>
+        </member>
+        <member name="T:MvcExtensions.Autofac.AutofacMvcApplication">
+            <summary>
+            Defines a <see cref="T:System.Web.HttpApplication"/> which is uses <seealso cref="T:MvcExtensions.Autofac.AutofacBootstrapper"/>.
+            </summary>
+        </member>
+        <member name="M:MvcExtensions.Autofac.AutofacMvcApplication.CreateBootstrapper">
+            <summary>
+            Creates the bootstrapper.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MvcExtensions.Autofac.AutofacMvcApplication.OnStart">
+            <summary>
+            Executes when the application starts.
+            </summary>
+        </member>
+        <member name="M:MvcExtensions.Autofac.AutofacMvcApplication.GetCurrentAdapter">
+            <summary>
+            Gets the current adapter.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MvcExtensions.Autofac.AutofacMvcApplication.OnPerRequestTasksDisposed">
+            <summary>
+            Executes after the registered <see cref="T:MvcExtensions.PerRequestTask"/> disposes.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -20,7 +20,7 @@ namespace DevText.Framework.Data
             // registor session factory :) 
             builder.RegisterType<SessionFactory>().As<ISessionFactory>().InstancePerLifetimeScope();
 
-            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerLifetimeScope();
+            builder.RegisterType<UnitOfWork>().As<IUnitOfWork>().InstancePerDependency().ExternallyOwned();
 
             builder.RegisterType<UnitOfWorkFactory>().As<IUnitOfWorkFactory>().InstancePerLifetimeScope();
 
