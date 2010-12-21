@@ -33,5 +33,6 @@ C:\Users\npei01\DevText\DevText\bin\FluentValidation.Mvc.pdb
 C:\Users\npei01\DevText\DevText\bin\FluentValidation.Mvc.xml
 C:\Users\npei01\DevText\DevText\bin\MvcExtensions.xml
 C:\Users\npei01\DevText\DevText\bin\MvcExtensions.Autofac.xml
-C:\Users\npei01\DevText\DevText\bin\Autofac.xml
+C:\Users\npei01\DevText\DevText\bin\Microsoft.Practices.ServiceLocation.xml
 C:\Users\npei01\DevText\DevText\bin\Post.pdb
+C:\Users\npei01\DevText\DevText\bin\Autofac.xml

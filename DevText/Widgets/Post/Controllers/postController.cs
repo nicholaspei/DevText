@@ -12,16 +12,16 @@ using Post.Repository;
 
 namespace Post.Controllers
 {
-    public class postController : NicholasController
+    public class PostController : NicholasController
     {
-        private readonly IpostRepository postService;
-        //
-        // GET: /post/
+    //    private readonly IpostRepository postService;
+    //    //
+    //    // GET: /post/
         
-        public postController(IpostRepository postService)
-        {
-            this.postService = postService;
-        }
+    //    public PostController(IpostRepository postService)
+    //    {
+    //        this.postService = postService;
+    //    }
        
         public ActionResult Index()
         {
@@ -38,7 +38,7 @@ namespace Post.Controllers
         [HttpPost]
         public ActionResult Create(post post)
         {
-            postService.Add(post);
+//            postService.Add(post);
 
             return RedirectToAction("Index");
         }

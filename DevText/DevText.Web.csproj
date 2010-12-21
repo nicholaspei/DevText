@@ -59,6 +59,9 @@
       <HintPath>F:\FluentValidation\FluentValidation-2.0rc1\MVC\MVC2\FluentValidation.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>F:\garbage\thangchung-NHibernate3Sample-ba2f954\Libs\Autofac\Library\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
     <Reference Include="MvcExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>F:\garbage\MvcApplication2\MvcApplication2\bin\MvcExtensions.dll</HintPath>
     </Reference>
@@ -97,14 +100,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConfigureRoutes.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewEngineConfig.cs" />
+    <Compile Include="RegistorServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
@@ -176,7 +178,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>28005</DevelopmentServerPort>
+          <DevelopmentServerPort>6108</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

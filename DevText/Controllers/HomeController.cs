@@ -10,6 +10,7 @@ namespace DevText.Controllers
     [HandleError]
     public class HomeController :NicholasController
     {
+
         
         
         public ActionResult Index()

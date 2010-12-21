@@ -138,7 +138,6 @@
     <Compile Include="Logging\ThreadContextProperties.cs" />
     <Compile Include="Logging\ThreadContextStack.cs" />
     <Compile Include="Logging\ThreadContextStacks.cs" />
-    <Compile Include="Mvc\DevTextControllerFactory.cs" />
     <Compile Include="Mvc\DevTextViewEngine.cs" />
     <Compile Include="Mvc\NicholasController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
